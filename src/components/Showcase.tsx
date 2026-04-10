@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { Sparkles, Cloud, BarChart3, Monitor, Zap, ShieldCheck } from "lucide-react";
 import { ProductCard, type Product } from "./ProductCard";
 import { Navbar } from "./Navbar";
-import img33333 from "../assets/33333.jpg";
 
 const NewApiLogo = () => (
   <div className="relative w-7 h-7 flex items-center justify-center">
@@ -29,10 +28,10 @@ const PRODUCTS: Product[] = [
     icon: NewApiLogo, 
     // ===============================================================
     // IMAGE SWAPPING CONFIGURATION (Product 1)
-    // Updated with imported image 33333.png
+    // Updated with user provided direct image link
     // ===============================================================
-    image: img33333, 
-    hoverImage: "https://images.unsplash.com/photo-1551288049-bbda38a5f9a2?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.ibb.co/pTCv4NR/89200172-09c2-4d82-9260-2aaa2eac19fd.jpg", 
+    hoverImage: "https://i.ibb.co/pTCv4NR/89200172-09c2-4d82-9260-2aaa2eac19fd.jpg",
     color: "#8b5cf6",
     link: "https://www.newapi.ai/zh"
   },
@@ -43,7 +42,7 @@ const PRODUCTS: Product[] = [
     description: "Next-generation serverless platform with edge computing capabilities, ensuring sub-10ms latency for users anywhere in the world.",
     icon: Cloud,
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
-    hoverImage: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=800",
+    hoverImage: "https://i.ibb.co/pTCv4NR/89200172-09c2-4d82-9260-2aaa2eac19fd.jpg",
     color: "#3b82f6",
     link: "#"
   },
