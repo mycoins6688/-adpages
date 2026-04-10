@@ -4,10 +4,10 @@ import { motion } from "motion/react";
 export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-[100] bg-[#0a0a0a]/90 backdrop-blur-xl border-b border-white/5 px-6 py-3">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-5xl mx-auto flex items-center justify-between">
         {/* Left Section: Logo & Telegram Links */}
         <div className="flex items-center gap-10">
-          <a href="https://tokenplus.io" className="flex items-center gap-2.5 cursor-pointer group">
+          <a href="https://tokenplus.io" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 cursor-pointer group">
             <div className="relative w-9 h-9 flex items-center justify-center">
               <div className="absolute inset-0 bg-cyan-500/20 blur-md rounded-lg group-hover:bg-cyan-500/30 transition-colors" />
               <div className="relative w-full h-full bg-linear-to-br from-slate-800 to-slate-900 border border-white/10 rounded-lg flex items-center justify-center overflow-hidden">
@@ -36,10 +36,10 @@ export function Navbar() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-5">
             <div className="flex items-center gap-6">
-              <a href="https://tokenplus.io/" className="text-white/60 hover:text-white transition-colors text-[13px] font-semibold cursor-pointer">
+              <a href="https://tokenplus.io/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-[13px] font-semibold cursor-pointer">
                 注册
               </a>
-              <a href="https://tokenplus.io/" className="text-white/60 hover:text-white transition-colors text-[13px] font-semibold cursor-pointer">
+              <a href="https://tokenplus.io/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors text-[13px] font-semibold cursor-pointer">
                 登录
               </a>
             </div>

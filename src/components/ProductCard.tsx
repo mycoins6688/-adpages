@@ -140,7 +140,7 @@ export function ProductCard({ product, index }: { product: Product, index: numbe
           <div className="flex-1 flex flex-col justify-center space-y-5">
             <div className="flex items-center gap-3">
               <div className="w-2 h-5 rounded-full bg-gold-muted shadow-[0_0_15px_rgba(197,160,89,0.6)]" />
-              <span className="text-base font-display font-black uppercase tracking-[0.15em] text-gold-bright">核心摘要</span>
+              <span className="text-base font-display font-black uppercase tracking-[0.15em] text-gold-bright">产品服务</span>
             </div>
             <p className="text-slate-200 text-xs leading-relaxed font-sans font-light">
               {product.description}
@@ -151,6 +151,8 @@ export function ProductCard({ product, index }: { product: Product, index: numbe
           <div className="pt-4">
             <motion.a
               href={product.link}
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ x: 5 }}
               className="inline-flex items-center gap-2 text-xs font-medium text-gold-bright group/link cursor-pointer"
             >

@@ -116,7 +116,7 @@ export function Showcase() {
         />
       </div>
 
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-5xl mx-auto relative z-10">
         <header className="mb-12 space-y-4">
           <motion.div
             initial={{ opacity: 0, x: -100, rotateY: -20 }}
@@ -125,7 +125,7 @@ export function Showcase() {
           >
             <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter leading-[1.1] mb-6">
               AI Token <br />
-              <span className="text-gradient-gold">资源&服务链接器</span>
+              <span className="text-gradient-gold">资源 · 服务链接器</span>
             </h1>
           </motion.div>
           
@@ -150,7 +150,7 @@ export function Showcase() {
               }
             }
           }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
         >
           {PRODUCTS.map((product, index) => (
             <ProductCard key={product.id} product={product} index={index} />
