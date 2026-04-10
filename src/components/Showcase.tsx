@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Sparkles, Cloud, BarChart3, Monitor, Zap, ShieldCheck } from "lucide-react";
 import { ProductCard, type Product } from "./ProductCard";
 import { Navbar } from "./Navbar";
+import img33333 from "../assets/33333.png";
 
 const NewApiLogo = () => (
   <div className="relative w-7 h-7 flex items-center justify-center">
@@ -28,9 +29,9 @@ const PRODUCTS: Product[] = [
     icon: NewApiLogo, 
     // ===============================================================
     // IMAGE SWAPPING CONFIGURATION (Product 1)
-    // Updated with user provided image 33333.png
+    // Updated with imported image 33333.png
     // ===============================================================
-    image: "/33333.png", 
+    image: img33333, 
     hoverImage: "https://images.unsplash.com/photo-1551288049-bbda38a5f9a2?auto=format&fit=crop&q=80&w=800",
     color: "#8b5cf6",
     link: "https://www.newapi.ai/zh"
@@ -52,8 +53,8 @@ const PRODUCTS: Product[] = [
     tagline: "Real-time Insights",
     description: "Transform raw data into beautiful, actionable visualizations. Pulse monitors millions of events per second with zero overhead.",
     icon: BarChart3,
-    // FIXED: Ensuring the background image is correctly set for the third product
-    image: "https://images.unsplash.com/photo-1551288049-bbda38a5f9a2?auto=format&fit=crop&q=80&w=800",
+    // FIXED: Using a high-quality data visualization image for the third product
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
     hoverImage: "https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=800",
     color: "#10b981",
     link: "#"
