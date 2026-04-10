@@ -117,15 +117,12 @@ export function Showcase() {
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <header className="mb-20 space-y-6">
+        <header className="mb-12 space-y-4">
           <motion.div
             initial={{ opacity: 0, x: -100, rotateY: -20 }}
             animate={{ opacity: 1, x: 0, rotateY: 0 }}
             transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h2 className="text-xs font-mono uppercase tracking-[0.4em] text-gold-muted/60 mb-6">
-              Lumina Financial Systems
-            </h2>
             <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tighter leading-[1.1] mb-6">
               AI Token <br />
               <span className="text-gradient-gold">资源&服务链接器</span>
