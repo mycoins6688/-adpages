@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Sparkles, Cloud, BarChart3, Monitor, Zap, ShieldCheck } from "lucide-react";
 import { ProductCard, type Product } from "./ProductCard";
 import { Navbar } from "./Navbar";
-import img33333 from "../assets/33333.png";
+import img33333 from "../assets/33333.jpg";
 
 const NewApiLogo = () => (
   <div className="relative w-7 h-7 flex items-center justify-center">
